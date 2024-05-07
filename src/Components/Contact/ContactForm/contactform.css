@@ -1,0 +1,82 @@
+.contactFormSection{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dottedUpper{
+    position: absolute;
+    right: 5%;
+    top: 22%;
+}
+
+.dottedBottom{
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+}
+
+.topCorner{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.contactForm{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
+    font-family: inherit;
+    box-shadow: 0 0 1rem -0.4rem black;
+    border-radius: 0.5rem;
+    z-index: 2;
+    background-color: white;
+}
+
+.submitBtn{
+    width: 80%;
+    padding: 0.5rem 0;
+    background-color: #2563eb;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submitBtn:hover{
+    background-color: #1d4ed8;
+}
+
+.inputbox{
+    font-family: inherit;
+    width: 80%;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.messagebox{
+    width: 80%;
+    height: 8rem;
+    resize: none;
+    font-family: inherit;
+    padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 769px){
+    .contactFormSection{
+        width: 100%;
+    }
+
+    .contactForm{
+        width: 100%;
+    }
+}

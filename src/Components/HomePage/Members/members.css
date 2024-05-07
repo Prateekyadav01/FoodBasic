@@ -1,0 +1,103 @@
+.membersSection{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsList{
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.first, .second, .third{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.memberDescription{
+    background-color: #F8FBFB;
+    padding: 1.5rem 1.4rem;
+    width: 100%;
+    line-height: 1.6rem;
+    color: #374151;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px -8px #000;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.memberImage{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.memberImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.memberDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.memberName{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.memberPosition{
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 501px){
+    .first, .second, .third{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 769px){
+    .cardsList{
+        row-gap: 1rem;
+    }
+    
+    .first, .second{
+        width: 48%;
+    }
+
+    .third{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .third .card{
+        width: 48%;
+    }
+
+    .uniqueCard{
+        margin-top: -8rem;
+    }
+}

@@ -1,0 +1,22 @@
+.quoteContainer{
+    width: 80%;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: #1F2836;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.quote{
+    width: 100%;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.author{
+    text-align: center;
+    color: #9CA3AF;
+    font-size: 1.125rem;
+}

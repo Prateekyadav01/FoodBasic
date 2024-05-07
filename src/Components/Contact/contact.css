@@ -1,0 +1,67 @@
+.contactPage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.rightSideContact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pageName{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.getInTouch{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.randomText{
+    width: 85%;
+    font-size: 1.05rem;
+}
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.locationContainer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.locationContainer i{
+    font-size: 1.8rem;
+}
+
+.locationDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.locHead{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 769px){
+    .contactPage{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .rightSideContact{
+        width: 100%;
+    }
+}
